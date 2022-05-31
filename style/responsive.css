@@ -1,0 +1,24 @@
+@media screen and (max-width:700px){
+    
+    header .container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    }
+
+    .botao{
+        margin: 0;
+        margin-top: 5px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    
+    .descricao, #explicacao{
+        width: 50%;
+    }
+}
